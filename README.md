@@ -1,2 +1,2 @@
 # npm_demo
-This is example for npm 
+This is example for npm publish
