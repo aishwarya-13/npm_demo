@@ -3,7 +3,9 @@ import React,{Component} from 'react';
 export default class App extends Component{
   render(){
     return(
-      <h1>This is dummy component</h1>
+      <div>
+          {`Hello I am Aishwarya. This is a dummy component`}
+      </div>
     )
   }
-}
+};
