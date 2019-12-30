@@ -4,6 +4,6 @@ import './index.css';
 import Merlin from './App.js';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
-export{
-    Merlin
+module.exports={
+    Merlin: Merlin
 }
