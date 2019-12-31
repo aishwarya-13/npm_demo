@@ -1,9 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import HelloWorld from './components/HelloWorld/index.js';
+import React from "react";
 
-//ReactDOM.render(<HelloWorld />, document.getElementById('root'));
-module.exports={
-    HelloWorld
-}
+const ReactColorSquare = props => {
+  const { width, height, color, text } = props;
+  return (
+    <div
+      style={{
+        width: width || 100,
+        height: height || 100,
+        backgroundColor: color || "blue"
+      }}
+    >
+      {text}
+    </div>
+  );
+};
+
+export default ReactColorSquare;
