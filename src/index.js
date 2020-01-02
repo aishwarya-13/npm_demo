@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import HelloWorld from './components/HelloWorld/index.js';
+import Input from './components/Input/index.js';
 
-//ReactDOM.render(<HelloWorld />, document.getElementById('root'));
+//ReactDOM.render(<Input />, document.getElementById('root'));
+
 module.exports={
-    HelloWorld
+    Input
 }

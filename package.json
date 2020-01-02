@@ -1,16 +1,7 @@
 {
-  "name": "react-component-hello-world",
+  "name": "react-hello-world-component-aishwarya",
   "version": "0.1.0",
-  "private": false,
-  "babel": {
-    "presets": [
-      "@babel/preset-react"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aishwarya-13/npm_demo.git"
-  },
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -22,7 +13,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "publish:npm": "SET NODE_ENV=production && if exist dist rmdir /s /q dist && mkdir dist && npx babel src/components --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -40,9 +30,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.7.7",
-    "@babel/preset-react": "^7.7.4"
   }
 }
